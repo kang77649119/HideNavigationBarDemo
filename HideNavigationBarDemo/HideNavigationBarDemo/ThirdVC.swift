@@ -24,7 +24,7 @@ class ThirdVC: UIViewController {
     
     lazy var headerImageView:UIImageView = {
         let headerImageView:UIImageView = UIImageView()
-        headerImageView.image = UIImage(contentsOfFile: Bundle.main.path(forResource: "test2.jpg", ofType: nil)!)
+        headerImageView.image = UIImage(named: "test2")
         headerImageView.contentMode = .scaleToFill
         return headerImageView
     }()
